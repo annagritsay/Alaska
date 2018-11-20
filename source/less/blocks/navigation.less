@@ -32,6 +32,12 @@
   order: -1;
   width: 100%;
   box-sizing: border-box;
+  border-bottom: none;
+
+  &:hover,
+  &:focus {
+    border-bottom: none;
+  }
 }
 
 .navigation__logo {
@@ -53,30 +59,10 @@
     margin: 30px 230px 100px 230px;
   }
 
-  .navigation__menu {
-    .stylenone();
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-right: -20px;
-  }
-
-  .navigation__item {
-    margin-right: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid transparent;
-  }
-
   .navigation__item--logo {
-    display: flex;
     margin: 0;
     order: 0;
     width: auto;
     padding: 0 20px;
   }
-
-  .navigation__logo {
-    margin: 0 auto;
-  }
 }
-
