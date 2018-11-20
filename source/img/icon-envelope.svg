@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path fill="#acacac" d="M871,2693.4 L872.979429,2691.5808 L878.635429,2696.6748 C878.430857,2696.8752 878.154286,2697 877.849143,2697 L864.150857,2697 C863.844571,2697 863.566857,2696.8752 863.361143,2696.6748 L869.020571,2691.5808 L871,2693.4 Z M878.638857,2685.3252 L871,2692.2 L863.363429,2685.3276 C863.569143,2685.1248 863.845714,2685 864.150857,2685 L877.849143,2685 C878.156571,2685 878.433143,2685.1236 878.638857,2685.3252 Z M863,2686.0536 L868.523429,2691.0948 L863,2696.0232 L863,2686.0536 Z M873.476571,2691.0948 L879,2686.05 L879,2696.0232 L873.476571,2691.0948 Z" id="path-1"></path>
+    </defs>
+    <g id="Forms" stroke="none" stroke-width="1" fill="#acacac" fill-rule="evenodd">
+        <g transform="translate(-863.000000, -2685.000000)">
+            <mask id="mask-2" fill="#acacac">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Envelope" fill="#ACACAC" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

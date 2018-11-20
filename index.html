@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Alaska</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="js/picturefill.min.js"></script>
+    </head>
+    <body>
+      <div style="display: none">
+        <include src="build/img/sprite.svg"></include>
+      </div>
+      <header class="navigation">
+        <a href="#" class="navigation__logo">
+          <svg width="139px" height="26px">
+            <use xlink:href="#alaska-logo"></use>
+          </svg>
+        </a>
+        <ul class="navigation__menu">
+          <li  class="navigation__item"><a>Home</a></li>
+          <li class="navigation__item"><a>About</a></li>
+          <li class="navigation__item"><a>Our works</a></li>
+          <li class="navigation__item"><a>Services</a></li>
+          <li class="navigation__item"><a>News</a></li>
+          <li class="navigation__item"><a>Contacts</a></li>
+        </ul>
+      </header>
+
+      <section class="feedback">
+        <h2 class="feedback__title">Write Us</h2>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <div class="feedback__email email">
+            <label class="email__title" for="name-id">Your e-mail</label>
+            <input class="email__text" type="text" name="name" id="name-id" required placeholder="pecherits4@gmail.com">
+          </div>
+          <div class="feedback__message message">
+            <label class="message__title" for="name-id">Your message</label>
+            <input class="message__text" type="text" name="text" id="text-id" required placeholder="Enter your message">
+          </div>
+          <button class="button feedback__button">Send your message</button>
+        </form>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__title"></h2>
+        <ul class="contacts__method">
+          <li class="contacts__item">
+            <h3 class="contacts__name">Address</h3>
+            <p class="contacts__text">West Olympic Boulevard Apt. 100 Los Angeles, CA</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">E-mail</h3>
+            <p class="contacts__text">pecherits4@gmail.com</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Phone</h3>
+            <p class="contacts__text">+30 226 4881 514</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Fax</h3>
+            <p class="contacts__text">+30 226 4881 515</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Skype</h3>
+            <p class="contacts__text">pecherits4</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Telegram</h3>
+            <p class="contacts__text">@pecherits4</p>
+          </li>
+        </ul>
+      </section>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  background: #000000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  background-color: #222428;
+  background-image: url("../img/bg-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-size: 768px 800px;
+  background-position: top center;
+  color: white;
+  .font (16px; 22px; 400);
+  display: flex;
+
+  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    background-image: url("../img/bg-mobile@2x.png");
+  }
+}
+
+.center-wrapper {
+  min-width: 320px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: @tablet-width) {
+  body {
+    background-image: url("../img/bg-desktop@1x.png");
+    background-size: 1400px 800px;
+
+    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+      background-image: url("../img/bg-desktop@2x.png");
+    }
+  }
+
+  .container-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .center-wrapper {
+    max-width: 1400px;
+  }
+
+  .container-wrapper {
+    margin: 0 9%;
+  }
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

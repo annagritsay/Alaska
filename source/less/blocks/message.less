@@ -1,0 +1,36 @@
+.message {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon-message.svg");
+    width: 15px;
+    height: 14px;
+    left: 7px;
+    top: 40px;
+  }
+}
+
+.message__text {
+  background-color:#f6f6f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  .font (14px; 24px; 400);
+  opacity: 0.7;
+}
+
+@media (min-width: @desktop-width) {
+  .message {
+  &::before {
+    left: 13px;
+    top: 50px;
+  }
+}
+
+  .message__title {
+    padding-bottom: 10px;
+  }
+}

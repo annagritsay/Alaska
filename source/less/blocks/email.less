@@ -1,0 +1,35 @@
+.email {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon-envelope.svg");
+    width: 16px;
+    height: 12px;
+    left: 7px;
+    top: 40px;
+  }
+}
+
+.email__text {
+  background-color:#f6f6f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  .font (14px; 24px; 400);
+}
+
+@media (min-width: @desktop-width) {
+  .email {
+  &::before {
+    left: 13px;
+    top: 50px;
+  }
+}
+
+  .email__title {
+    padding-bottom: 10px;
+  }
+}
